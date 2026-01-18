@@ -21,8 +21,7 @@
 #
 # ATLEAST GIVE CREDITS IF YOU STEALING :
 # ELSE NO FURTHER PUBLIC THUMBNAIL UPDATES
-
-    import os
+ import os
 import random
 import traceback
 from pathlib import Path
