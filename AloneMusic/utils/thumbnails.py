@@ -22,7 +22,6 @@
 # ATLEAST GIVE CREDITS IF YOU STEALING :
 # ELSE NO FURTHER PUBLIC THUMBNAIL UPDATES
 
-import os
 import random
 import aiohttp
 import aiofiles
@@ -397,3 +396,4 @@ async def gen_thumb(videoid: str):
         print(f"[gen_thumb Processing Error] {e}")
         traceback.print_exc()
         return None
+
