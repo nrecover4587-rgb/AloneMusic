@@ -5,8 +5,7 @@ from typing import Union
 import yt_dlp
 from pyrogram.enums import MessageEntityType
 from pyrogram.types import Message
-from AloneMusic
-.utils.formatters import time_to_seconds
+from AloneMusic.utils.formatters import time_to_seconds
 import aiohttp
 from AloneMusic import LOGGER
 
