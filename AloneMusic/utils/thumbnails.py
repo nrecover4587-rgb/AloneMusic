@@ -383,13 +383,14 @@ async def gen_thumb(videoid: str):
                      fill=corner_color, width=corner_width)
         
         out = CACHE_DIR / f"{videoid}_final.png"
-        canvas.save(out, quality=95, optimize=True)
+        canvas.save(out, quality=95, optimize=True
 
         if thumb_path and thumb_path.exists():
             try:
                 os.remove(thumb_path)
             except:
                 pass
+get_thumb = gen_thumb
 
         return str(out)
 
