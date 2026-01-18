@@ -34,7 +34,7 @@ LOGGER_ID = int(getenv("LOGGER_ID", 0))
 
 DEBUG_IGNORE_LOG = True
 # Get this value from  on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", 8106551502))
+OWNER_ID = int(getenv("OWNER_ID",8364016757))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -51,8 +51,8 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/TheAloneTeam")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/TheTeamAlone")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/codexempire")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/codexempire")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", None))
@@ -91,16 +91,16 @@ confirmer = {}
 
 START_IMG_URL = getenv(
     "START_IMG_URL",
-    "https://files.catbox.moe/34xlvu.jpg",
+    "https://files.catbox.moe/b81lk3.jpg",
 )
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
-    "https://files.catbox.moe/34xlvu.jpg",
+    "https://files.catbox.moe/x8dhjp.jpg",
 )
 PLAYLIST_IMG_URL = "https://files.catbox.moe/34xlvu.jpg"
-STATS_IMG_URL = "https://files.catbox.moe/34xlvu.jpg"
+STATS_IMG_URL = "https://files.catbox.moe/b81lk3.jpg"
 TELEGRAM_AUDIO_URL = "https://files.catbox.moe/34xlvu.jpg"
-TELEGRAM_VIDEO_URL = "https://files.catbox.moe/34xlvu.jpg"
+TELEGRAM_VIDEO_URL = "https://files.catbox.moe/b81lk3.jpg"
 STREAM_IMG_URL = "https://files.catbox.moe/34xlvu.jpg"
 SOUNCLOUD_IMG_URL = "https://files.catbox.moe/34xlvu.jpg"
 YOUTUBE_IMG_URL = "https://files.catbox.moe/34xlvu.jpg"
