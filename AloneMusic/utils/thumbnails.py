@@ -103,12 +103,5 @@ async def gen_thumb(videoid: str):
 
 # ----------------- Exported get_thumb ----------------- #
 
-async def get_thumb(videoid: str):
-    """
-    This is the function call.py should import.
-    """
-    return await gen_thumb(videoid)
-
-
     
 
