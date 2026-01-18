@@ -21,7 +21,8 @@
 #
 # ATLEAST GIVE CREDITS IF YOU STEALING :
 # ELSE NO FURTHER PUBLIC THUMBNAIL UPDATES
-import os
+
+    import os
 import random
 import traceback
 from pathlib import Path
@@ -109,6 +110,5 @@ async def get_thumb(videoid: str):
     return await gen_thumb(videoid)
 
 
-    
     
 
