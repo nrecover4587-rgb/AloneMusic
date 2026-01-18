@@ -30,7 +30,7 @@ import traceback
 from pathlib import Path
 from PIL import Image, ImageDraw, ImageFilter, ImageFont, ImageEnhance
 from py_yt import VideosSearch
-from ShrutiMusic import app
+from AloneMusic import app
 import math
 
 CACHE_DIR = Path("cache")
