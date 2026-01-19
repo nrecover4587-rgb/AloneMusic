@@ -97,10 +97,10 @@ START_IMG_URL = getenv(
 )
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
-    "https://files.catbox.moe/34xlvu.jpg",
+    "https://files.catbox.moe/23rya9.jpg",
 )
 PLAYLIST_IMG_URL = "https://files.catbox.moe/34xlvu.jpg"
-STATS_IMG_URL = "https://files.catbox.moe/34xlvu.jpg"
+STATS_IMG_URL = "https://files.catbox.moe/23rya9.jpg"
 TELEGRAM_AUDIO_URL = "https://files.catbox.moe/34xlvu.jpg"
 TELEGRAM_VIDEO_URL = "https://files.catbox.moe/34xlvu.jpg"
 STREAM_IMG_URL = "https://files.catbox.moe/34xlvu.jpg"
