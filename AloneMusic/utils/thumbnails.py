@@ -146,7 +146,7 @@ async def get_thumb(videoid):
             stroke_fill="black",
         )
 
-        stats_text = f"YouTube : {views} | Time : {duration} | Player : @aashikmusicbot"
+        stats_text = f"YouTube : {views} | Time : {duration} | Player : @mistumusicbot"
         w_stats = get_text_width(stats_text, font_details)
         draw.text(
             ((1280 - w_stats) / 2, text_y_pos + 70),
@@ -171,7 +171,7 @@ async def get_thumb(videoid):
 
         draw.text(
             (30, 680),
-            text="thakur",
+            text="@mistubots",
             fill="white",
             font=font_watermark,
             stroke_width=1,
